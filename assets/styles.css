@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --fonte-principal: "Nunito Sans", sans-serif;
+    --fonte-secundaria: "Rubik", sans-serif;
+    --branco:#FFF;
+    --roxo: #473BF0;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  
+body{
+    position: relative;
+}
+
+.cabecalho{
+    height:100vh
+}
+
+#hero{
+    background-image: url('./images/BG\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 80%;
+
+}
+
+#itens-menu{
+    display: flex;
+    flex-direction: row;
+    padding: 3% 0% 0% 2%;
+}
+
+#logo{
+list-style: none;
+}
+
+#logo a{
+    padding-right: 30%;
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+#botao-meio{
+    list-style: none;
+    margin-left: 5%;
+    margin-top: 0.5rem;
+}
+
+#botao-meio a{
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    font-weight: 700;
+    
+}
+
+#botao-fim {
+    list-style: none;
+    margin-left: 45%;
+}
+
+#botao-fim span{
+   width: 9rem;
+   height: 3rem;
+   display: flex;                          
+   font-family: var(--fonte-principal);
+   border-radius: 0.5rem;
+   background-color: var(--roxo);
+   align-items: center;
+   justify-content: center;
+}
+
+#botao-fim a{
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.conteudo__main{
+    margin: 11rem 48rem 10rem 15.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-main{
+    color:var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+#texto-main{
+    color:var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2rem;
+    margin-bottom: 2%;
+}
+
+#botao-main{
+    width: 13.75rem;
+   height: 3.75rem;
+   display: flex;                          
+   font-family: var(--fonte-principal);
+   border-radius: 0.5rem;
+   background-color: var(--roxo);
+   align-items: center;
+   justify-content: flex-start;
+   
+}
+
+#botao-main a{
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1rem;
+    padding-left: 10%;
+}
+
+#icone-seta{
+    padding-left: 1.5rem;
+}
+
+
+
+
